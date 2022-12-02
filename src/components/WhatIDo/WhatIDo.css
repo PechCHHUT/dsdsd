@@ -1,0 +1,35 @@
+.WhatIDo{
+    display: flex;
+    text-align: start;
+}
+.WhatIDo-Part{
+    display: flex;
+}
+.WhatIDo-Part svg{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 9px 1px #00000070; 
+    box-shadow: 0px 0px 9px 1px #00000070;
+    background-color: white;
+    color: #034f76;
+}
+.WhatIDo-Part div{
+    padding: 0.7rem;
+}
+.WhatIDo-Part p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.WhatIDo-Part h3{
+    color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 589px){
+    .WhatIDo{
+        display: block;
+        text-align: start;
+    }
+    /* .WhatIDo-Part div{
+        padding: 0.7rem;
+        padding-right: 0;
+    } */
+}

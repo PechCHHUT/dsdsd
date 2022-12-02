@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* 
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+} */
+.App{
+  text-align: center;
+}
+.title-text{
+  font-size: 150%;
+  font-weight: 500;
+}
+.title-text span{
+  color:  #015580;
+}
+.normal-text{
+  font-size: 1.001rem;
+  line-height: 2rem;
+  padding: 1rem;
+  padding-left: 0rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.button {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  color: #0088cc;
+  background: transparent;
+  border: 1px solid #0088cc;
+  margin-top: 3rem;
+  border-radius: 2rem;
+}
+.button a{
+  text-decoration: none;
+  color: #0088cc;
+}
+.button:hover a{
+  color: aliceblue;
+}
+.button:hover {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background: #0088cc;
+  color: aliceblue;
+  cursor: pointer;
+  border: 1px solid #015580;
+  border-radius: 2rem;
+} 
+
+
+@media only screen and (min-width: 1497px) {
+  .container{
+      padding-left: 9rem;
+      padding-right: 9rem;
+  }
+}
+@media only screen and (max-width: 1496px) {
+  .container{
+      padding-left: 7rem;
+      padding-right: 7rem;
+  }
+}
+@media only screen and (max-width: 1283px) {
+  .container{
+      padding-left: 6.5rem;
+      padding-right: 6.5rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .container{
+      padding-left: 6rem;
+      padding-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 472px) {
+  .title-text{
+    font-size: 120%;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container{
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

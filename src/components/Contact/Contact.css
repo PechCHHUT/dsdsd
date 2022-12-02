@@ -1,0 +1,94 @@
+.contact{
+    display: flex;
+    text-align: start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.address{
+    width: 35%;
+}
+.send-email{
+    width: 65%;
+}
+.follow{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.follow svg{
+    margin-right: 1rem;
+    background-color: #193b81;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border:1px solid #193b81
+}
+.follow svg:hover{
+    margin-right: 1rem;
+    color: #193b81;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border:1px solid #193b81
+}
+.send-email form{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.comment-name,.comment-email{
+    width: 50%;
+    /* width: fit-content; */
+}
+.comment-text{
+    width: 97%;
+    height: 90px;
+}
+.comment-name,.comment-text,.comment-email{
+    border: none;
+    border-radius: 0.2rem;
+    outline: 1px solid #193b81;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+.comment-name::placeholder,.comment-text::placeholder,.comment-email::placeholder{
+    color: rgba(128, 128, 128, 0.525);
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .comment-text{
+        width: 95.2%;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .address{
+        width: 100%;
+    }
+    .comment-text{
+        width: 97%;
+    }
+    .send-email{
+        width: 100%;
+    }
+    .contact{
+        display: block;
+    }
+}
+@media only screen and (max-width: 908px) {
+    .comment-text{
+        width: 96.5%;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .comment-text{
+        width: 92.5%;
+    }
+}
+@media only screen and (max-width: 324px) {
+    .comment-text{
+        width: 92%;
+    }
+}

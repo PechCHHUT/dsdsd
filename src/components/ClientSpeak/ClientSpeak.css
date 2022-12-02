@@ -1,0 +1,46 @@
+.slider{
+    width: 48.2% !important;
+    height: 100% !important;
+    background-color: #193b8110;
+    /* border: 0.1px solid #193b81; */
+    border-radius: 0.5rem ;
+}
+.user{
+    padding: 2rem;
+    text-align: start;
+}
+.userDetail{
+    display: flex;
+    padding-bottom: 1rem;
+}
+.userDetail img{
+    width: 60px;
+    height: 60px;
+    border-radius: 2.7rem;
+    border: 2px solid #193b81;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.position{
+    font-weight: 500;
+    color: gray;
+}
+.comment{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.rate svg{
+    padding-right: 4px;
+    color: #facc32 ;
+}
+
+@media only screen and (max-width: 876px) {
+    .slider{
+        width: 100% !important;
+    }
+}

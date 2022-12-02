@@ -1,0 +1,77 @@
+.Title{
+    /* height: 1000px; */
+    padding: 1rem;
+}
+.background-text{
+    font-size: 7rem;
+    font-weight: 600;
+    color: #193b81;
+    opacity: 0.1;
+    z-index: 2;
+}
+.under-text{
+    position: absolute;
+    margin-top: -6.5rem;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.text{
+    font-size: 3rem;
+    font-weight: 500;
+    z-index: 2;
+}
+.line{
+    height: 4px;
+    width: 100px;
+    background-color: #193b81;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 769px){
+    .background-text{
+        font-size: 6rem;
+    }
+    .under-text{
+        margin-top: -6rem;
+    }
+}
+@media only screen and (max-width: 569px){
+    .background-text{
+        font-size: 5rem;
+    }
+    .under-text{
+        margin-top: -4.5rem;
+    }
+    
+    .text{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 444px){
+    .background-text{
+        font-size: 4rem;
+    }
+    .under-text{
+        margin-top: -4rem;
+    }
+    
+    .text{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 321px){
+    .background-text{
+        font-size: 3rem;
+    }
+    .under-text{
+        margin-top: -3rem;
+    }
+    
+    .text{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}

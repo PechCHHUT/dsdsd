@@ -1,0 +1,34 @@
+.footer{
+    background-color: #193b81;
+    color: white;
+    padding-top: 2rem;
+}
+.footer-follow svg{
+    margin-right: 1rem;
+    color: #193b81;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border:3px solid #193b81
+}
+.footer-follow svg:hover{
+    border:3px solid #198123
+}
+
+.button1 {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #193b81;
+    border: 1px solid #0088cc;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.copyright{
+    background-color: rgb(25, 57, 122);
+    padding-top: 2.5rem;
+    border-top: 0.5px solid white;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+}

@@ -1,0 +1,93 @@
+.Resume{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.education div,.expereint div{
+    padding: 1.5rem;
+    border: 1px solid #0394dc70;
+    border-radius: 7px;
+}
+.subjact{
+    font-weight: 500;
+}
+.education,.expereint{
+    width: 50%;
+    text-align: start;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.year{
+    background-color: #193b81;
+    border: none;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.title-Resume{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.where{
+    padding-top: 0.2rem;
+    font-size: 1.1rem;
+    color: rgb(208, 3, 3);
+}
+.skill-detail{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.main-graph{
+    background-color: rgb(213, 213, 213);
+    width: 100%;
+    height: 10px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.graph{
+    height: 10px;
+    border-radius: 1rem;
+    background-color: #193b81;
+    margin-bottom: 1rem;
+}
+.my-skill{
+    padding-top: 2rem;
+    text-align: start;
+}
+.skill{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+.skill-graph{
+    width: 50%;
+}
+
+
+
+@media only screen and (max-width: 555px) {
+    .Resume{
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+    
+    .education,.expereint{
+        width: 100%;
+    }
+    .skill{
+        display: block;
+    }
+    .skill-graph{
+        width: 100%;
+    }
+}

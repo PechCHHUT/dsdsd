@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #193b81;
+  align-items: center;
+  box-shadow: 0px 6px 10px 0.2px rgba(0, 0, 0, 0.6);
+  color: white;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 500;
+}
+
+.list li {
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.list li:hover, .list .li-active, a {
+  color: white;
+  cursor: pointer;
+}
+
+.media-icon {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  padding-right: 2rem;
+}
+
+.media-icon a svg {
+  margin-top: 6px;
+}
+
+.menu {
+  display: none;
+}
+
+.facebook:hover {
+  color: #78a5ff;
+}
+
+.youtube:hover {
+  color: #FF0000;
+}
+
+.telegram:hover {
+  color: #0088cc;
+}
+
+.page:hover {
+  color: #f99f17;
+}
+
+.tiktok:hover {
+  color: rgb(128, 128, 128);
+}
+
+@media only screen and (max-width: 891px) {
+  .list {
+    display: inline-block;
+    position: absolute;
+    background-color: #193c81f3;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 4rem;
+    left: 0;
+    color: rgba(240, 248, 255, 0.6);
+    right: 0;
+    transition: all 0.5s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    box-shadow: 0px 6px 10px 0.2px rgba(0, 0, 0, 0.6) !important;
+  }
+  .list-active {
+    transition: all 0.5s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .menu {
+    display: inline;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
